@@ -1,0 +1,57 @@
+# === Editor/IDE Artifacts ===
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ / CLion
+.idea/
+*.iml
+out/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# === CMake / Build Systems ===
+
+# Match any subdir that contains 'build'
+**/*build*/
+**/*build*/**
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ninja
+.ninja_deps
+.ninja_log
+build.ninja
+
+# === Artifacts ===
+*.csv
+
+# === System Files ===
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# === Others ===
+*.log
+*.bak
+*.tmp
